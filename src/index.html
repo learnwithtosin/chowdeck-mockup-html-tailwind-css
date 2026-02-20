@@ -1,0 +1,700 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./input.css">
+</head>
+<body>
+  <header>
+    <nav class="flex items-center px-72 py-6 justify-between border-b border-gray-100">
+
+      <div class="flex gap-7">
+        <div>
+          <img src="/images/e4f1f043-5c9b-4562-8523-d44c2d70931f.jpeg" alt="logo" class="h-16 w-16">
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span><i class='bx bxs-location-plus text-3xl' style='color:#0dd60c'  ></i></span><p class="flex items-center gap-0.5">Lagos<span><i class='bx bxs-chevron-down' style='color:#060606'  ></i></span></p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-7">
+        <div class="relative">
+          <span class="absolute left-4 top-3"><i class='bx bx-search text-2xl' style='color:#1b541b'  ></i></span>
+          <input type="text" placeholder="Search Chowdeck..." class="bg-gray-200 px-12 py-3 w-86 rounded-xl">
+        </div>
+
+        <div class="">
+          <span class="bg-green-900 rounded-full px-3.5 py-4"><i class='bx bx-cart text-2xl' style='color:#f3f3f3'  ></i></span>
+          <span class="bg-green-900 rounded-full px-3.5 py-4"><i class='bx bx-user text-2xl' style='color:#f1f0f0'  ></i></span>
+        </div>
+      </div>
+      
+    </nav>
+  </header>
+
+  <section>
+    <div class="py-12 px-72">
+      <div class="flex justify-between">
+        <p class="text-3xl font-semibold">Explore Categories</p>
+        <p class="px-3 py-2.5 bg-green-900 w-26 rounded-full flex gap-1.5 text-white font-semibold">Filter <span><i class='bx bx-slider-alt text-2xl' style='color:#f1f0f0' ></i></span></p>
+      </div>
+
+      <div class="flex items-center gap-12 mt-6">
+        <div class="flex flex-col items-center justify-center bg-pink-50 rounded-2xl p-6 w-40 h-40">
+            <i class='bx bx-restaurant text-4xl mb-2'></i>
+            <p class="text-sm font-medium text-center">Restaurants</p>
+        </div>
+
+        <div class="flex flex-col items-center justify-center bg-yellow-50 rounded-2xl p-6 w-40 h-40">
+            <i class='bx bx-store text-4xl mb-2'></i>
+            <p class="text-sm font-medium text-center">Shops</p>
+        </div>
+
+        <div class="flex flex-col items-center justify-center bg-blue-50 rounded-2xl p-6 w-40 h-40 border-2 border-blue-500">
+            <i class='bx bx-plus-medical text-4xl mb-2'></i>
+            <p class="text-sm font-medium text-center">Pharmacy</p>
+        </div>
+
+        <div class="flex flex-col items-center justify-center bg-green-50 rounded-2xl p-6 w-40 h-40">
+            <i class='bx bx-shopping-bag text-4xl mb-2'></i>
+            <p class="text-sm font-medium text-center">Local Markets</p>
+        </div>
+
+        <div class="flex flex-col items-center justify-center bg-orange-50 rounded-2xl p-6 w-40 h-40">
+            <i class='bx bx-bowl-hot text-4xl mb-2'></i>
+            <p class="text-sm font-medium text-center">African Meals</p>
+        </div>
+
+        <div class="flex flex-col items-center justify-center bg-green-50 rounded-2xl p-6 w-40 h-40">
+            <i class='bx bx-heart text-4xl mb-2 text-green-600'></i>
+            <p class="text-sm font-semibold text-center text-green-600">Healthy</p>
+        </div>
+
+        <div class="flex flex-col items-center justify-center bg-yellow-50 rounded-2xl p-6 w-40 h-40">
+            <i class='bx bx-drink text-4xl mb-2'></i>
+            <p class="text-sm font-medium text-center">Drinks</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 gap-6 mt-20">
+
+        <div class="bg-purple-900 rounded-3xl p-8 relative overflow-hidden">
+
+          <div class="relative z-10">
+            <div class="flex items-center gap-2 mb-4">
+              <i class='bx bxs-bowl-hot text-white text-xl'></i>
+              <p class="text-white text-sm font-medium">Chowdeck</p>
+            </div>
+            
+            <h2 class="text-white text-4xl font-bold mb-2">Happy Valentine's</h2>
+            <h2 class="text-white text-4xl font-bold mb-4">day! shop special</h2>
+            <h2 class="text-white text-4xl font-bold mb-6">deals just for you</h2>
+            
+            <p class="text-white text-sm mb-4">Exclusive discounts from Chicken Republic, Item7go, The Place, <br> Burger king and many more</p>
+          </div>
+
+          <div class="absolute bottom-8 right-8 flex items-end gap-2">
+            <img src="/images/cupcake.png" alt="cupcake" class="w-20 h-20">
+            <img src="/images/burger.png" alt="burger" class="w-24 h-24">
+            <img src="/images/drink.png" alt="drink" class="w-20 h-24">
+          </div>
+        </div>
+
+        <div class="bg-pink-800 rounded-3xl p-8 relative overflow-hidden">
+
+          <div class="relative z-10">
+            <img src="/images/relay-logo.png" alt="relay by chowdeck" class="w-32 mb-4">
+            
+            <h2 class="text-white text-9xl font-bold mb-2">relay</h2>
+            <p class="text-white text-xl font-medium">Send packages</p>
+            <p class="text-white text-xl font-medium mb-4">easily with relay!</p>
+          </div>
+
+          <div class="absolute bottom-0 right-0">
+            <img src="/images/packages.png" alt="packages">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="py-12 px-72">
+      <div class="grid grid-cols-3 gap-6">
+
+          <div class="border border-gray-200 rounded-2xl overflow-hidden">
+
+              <div class="relative h-48 bg-gradient-to-r from-pink-500 to-purple-600 p-6">
+
+                  <div class="absolute top-4 left-4">
+                      <i class='bx bxs-sun text-yellow-400 text-4xl'></i>
+                  </div>
+
+                  <div class="text-white">
+                      <p class="text-sm font-medium mb-1">Stay well. Spend less.</p>
+                      <p class="text-sm font-medium mb-2">Enjoy</p>
+                      <h2 class="text-7xl font-bold mb-2">5%</h2>
+                      <p class="text-xs">OFF all products every Tuesday &</p>
+                      <p class="text-xs">Wednesday this November — only</p>
+                      <p class="text-xs">at Medplus.</p>
+                  </div>
+
+                  <div class="absolute bottom-0 right-4">
+                      <img src="/images/pharmacy-products.png" alt="products" class="w-32 h-40">
+                  </div>
+              </div>
+
+              <div class="p-4">
+                  <div class="flex items-start justify-between mb-2">
+                      <h3 class="text-lg font-semibold">Medplus Pharmacy - Opebi</h3>
+                      <div class="flex items-center gap-1">
+                          <span class="text-sm font-semibold">4.36</span>
+                          <i class='bx bxs-star text-yellow-400 text-sm'></i>
+                      </div>
+                  </div>
+                  
+                  <div class="flex items-center gap-1 text-gray-600 text-sm mb-3">
+                      <i class='bx bx-time-five text-green-600'></i>
+                      <span>12 - 22 mins</span>
+                  </div>
+                  
+                  <div class="flex gap-2">
+                      <span class="text-green-600 text-xs font-medium bg-green-50 px-3 py-1 rounded-full">PHARMACY</span>
+                      <span class="text-purple-600 text-xs font-medium bg-purple-50 px-3 py-1 rounded-full">LOVEDEAL</span>
+                  </div>
+              </div>
+          </div>
+
+          <div class="border border-gray-200 rounded-2xl overflow-hidden">
+
+              <div class="relative h-48 bg-gradient-to-r from-pink-500 to-purple-600 p-6">
+                  <div class="absolute top-4 left-4">
+                      <i class='bx bxs-sun text-yellow-400 text-4xl'></i>
+                  </div>
+                  
+                  <div class="text-white">
+                      <p class="text-sm font-medium mb-1">Stay well. Spend less.</p>
+                      <p class="text-sm font-medium mb-2">Enjoy</p>
+                      <h2 class="text-7xl font-bold mb-2">5%</h2>
+                      <p class="text-xs">OFF all products every Tuesday &</p>
+                      <p class="text-xs">Wednesday this November — only</p>
+                      <p class="text-xs">at Medplus.</p>
+                  </div>
+                  
+                  <div class="absolute bottom-0 right-4">
+                      <img src="/images/pharmacy-products-1.png" alt="products" class="w-32 h-40">
+                  </div>
+              </div>
+              
+              <div class="p-4">
+                  <div class="flex items-start justify-between mb-2">
+                      <h3 class="text-lg font-semibold">Medplus Pharmacy - Simbiat</h3>
+                      <div class="flex items-center gap-1">
+                          <span class="text-sm font-semibold">4.68</span>
+                          <i class='bx bxs-star text-yellow-400 text-sm'></i>
+                      </div>
+                  </div>
+                  
+                  <div class="flex items-center gap-1 text-gray-600 text-sm mb-3">
+                      <i class='bx bx-time-five text-green-600'></i>
+                      <span>12 - 22 mins</span>
+                  </div>
+                  
+                  <div class="flex gap-2">
+                      <span class="text-green-600 text-xs font-medium bg-green-50 px-3 py-1 rounded-full">PHARMACY</span>
+                      <span class="text-purple-600 text-xs font-medium bg-purple-50 px-3 py-1 rounded-full">LOVEDEAL</span>
+                  </div>
+              </div>
+          </div>
+
+          <div class="border border-gray-200 rounded-2xl overflow-hidden">
+
+              <div class="relative h-48 bg-gradient-to-r from-pink-500 to-purple-600 p-6">
+                  <div class="absolute top-4 left-4">
+                      <i class='bx bxs-sun text-yellow-400 text-4xl'></i>
+                  </div>
+                  
+                  <div class="text-white">
+                      <p class="text-sm font-medium mb-1">Stay well. Spend less.</p>
+                      <p class="text-sm font-medium mb-2">Enjoy</p>
+                      <h2 class="text-7xl font-bold mb-2">5%</h2>
+                      <p class="text-xs">OFF all products every Tuesday &</p>
+                      <p class="text-xs">Wednesday this November — only</p>
+                      <p class="text-xs">at Medplus.</p>
+                  </div>
+                  
+                  <div class="absolute bottom-0 right-4">
+                      <img src="/images/pharmacy-products-2.png" alt="products" class="w-32 h-40">
+                  </div>
+              </div>
+              
+              <div class="p-4">
+                  <div class="flex items-start justify-between mb-2">
+                      <h3 class="text-lg font-semibold">Medplus Pharmacy - Oba Akinjobi</h3>
+                      <div class="flex items-center gap-1">
+                          <span class="text-sm font-semibold">4.89</span>
+                          <i class='bx bxs-star text-yellow-400 text-sm'></i>
+                      </div>
+                  </div>
+                  
+                  <div class="flex items-center gap-1 text-gray-600 text-sm mb-3">
+                      <i class='bx bx-time-five text-green-600'></i>
+                      <span>13 - 23 mins</span>
+                  </div>
+                  
+                  <div class="flex gap-2">
+                      <span class="text-green-600 text-xs font-medium bg-green-50 px-3 py-1 rounded-full">PHARMACY</span>
+                      <span class="text-purple-600 text-xs font-medium bg-purple-50 px-3 py-1 rounded-full">LOVEDEAL</span>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </section>
+
+  <section class="py-12 px-72">
+      <div class="grid grid-cols-3 gap-6">
+
+          <div class="border border-gray-200 rounded-2xl overflow-hidden">
+
+              <div class="relative h-48 bg-gradient-to-r from-pink-500 to-purple-600 p-6">
+
+                  <div class="absolute top-4 left-4">
+                      <i class='bx bxs-sun text-yellow-400 text-4xl'></i>
+                  </div>
+
+                  <div class="text-white">
+                      <p class="text-sm font-medium mb-1">Stay well. Spend less.</p>
+                      <p class="text-sm font-medium mb-2">Enjoy</p>
+                      <h2 class="text-7xl font-bold mb-2">5%</h2>
+                      <p class="text-xs">OFF all products every Tuesday &</p>
+                      <p class="text-xs">Wednesday this November — only</p>
+                      <p class="text-xs">at Medplus.</p>
+                  </div>
+
+                  <div class="absolute bottom-0 right-4">
+                      <img src="/images/pharmacy-products-2.png" alt="products" class="w-32 h-40">
+                  </div>
+              </div>
+
+              <div class="p-4">
+                  <div class="flex items-start justify-between mb-2">
+                      <h3 class="text-lg font-semibold">Medplus Pharmacy - Allen</h3>
+                      <div class="flex items-center gap-1">
+                          <span class="text-sm font-semibold">4.36</span>
+                          <i class='bx bxs-star text-yellow-400 text-sm'></i>
+                      </div>
+                  </div>
+                  
+                  <div class="flex items-center gap-1 text-gray-600 text-sm mb-3">
+                      <i class='bx bx-time-five text-green-600'></i>
+                      <span>12 - 22 mins</span>
+                  </div>
+                  
+                  <div class="flex gap-2">
+                      <span class="text-green-600 text-xs font-medium bg-green-50 px-3 py-1 rounded-full">PHARMACY</span>
+                      <span class="text-purple-600 text-xs font-medium bg-purple-50 px-3 py-1 rounded-full">LOVEDEAL</span>
+                  </div>
+              </div>
+          </div>
+
+          <div class="border border-gray-200 rounded-2xl overflow-hidden">
+
+              <div class="relative h-48 bg-gradient-to-r from-pink-500 to-purple-600 p-6">
+                  <div class="absolute top-4 left-4">
+                      <i class='bx bxs-sun text-yellow-400 text-4xl'></i>
+                  </div>
+                  
+                  <div class="text-white">
+                      <p class="text-sm font-medium mb-1">Stay well. Spend less.</p>
+                      <p class="text-sm font-medium mb-2">Enjoy</p>
+                      <h2 class="text-7xl font-bold mb-2">5%</h2>
+                      <p class="text-xs">OFF all products every Tuesday &</p>
+                      <p class="text-xs">Wednesday this November — only</p>
+                      <p class="text-xs">at Medplus.</p>
+                  </div>
+                  
+                  <div class="absolute bottom-0 right-4">
+                      <img src="/images/pharmacy-products-1.png" alt="products" class="w-32 h-40">
+                  </div>
+              </div>
+              
+              <div class="p-4">
+                  <div class="flex items-start justify-between mb-2">
+                      <h3 class="text-lg font-semibold">Medplus Pharmacy - Adeniyi Jones</h3>
+                      <div class="flex items-center gap-1">
+                          <span class="text-sm font-semibold">4.68</span>
+                          <i class='bx bxs-star text-yellow-400 text-sm'></i>
+                      </div>
+                  </div>
+                  
+                  <div class="flex items-center gap-1 text-gray-600 text-sm mb-3">
+                      <i class='bx bx-time-five text-green-600'></i>
+                      <span>12 - 22 mins</span>
+                  </div>
+                  
+                  <div class="flex gap-2">
+                      <span class="text-green-600 text-xs font-medium bg-green-50 px-3 py-1 rounded-full">PHARMACY</span>
+                      <span class="text-purple-600 text-xs font-medium bg-purple-50 px-3 py-1 rounded-full">LOVEDEAL</span>
+                  </div>
+              </div>
+          </div>
+
+          <div class="border border-gray-200 rounded-2xl overflow-hidden">
+
+              <div class="relative h-48 bg-gradient-to-r from-pink-500 to-purple-600 p-6">
+                  <div class="absolute top-4 left-4">
+                      <i class='bx bxs-sun text-yellow-400 text-4xl'></i>
+                  </div>
+                  
+                  <div class="text-white">
+                      <p class="text-sm font-medium mb-1">Stay well. Spend less.</p>
+                      <p class="text-sm font-medium mb-2">Enjoy</p>
+                      <h2 class="text-7xl font-bold mb-2">5%</h2>
+                      <p class="text-xs">OFF all products every Tuesday &</p>
+                      <p class="text-xs">Wednesday this November — only</p>
+                      <p class="text-xs">at Medplus.</p>
+                  </div>
+                  
+                  <div class="absolute bottom-0 right-4">
+                      <img src="/images/pharmacy-products.png" alt="products" class="w-32 h-40">
+                  </div>
+              </div>
+              
+              <div class="p-4">
+                  <div class="flex items-start justify-between mb-2">
+                      <h3 class="text-lg font-semibold">Medplus Pharmacy - ICM</h3>
+                      <div class="flex items-center gap-1">
+                          <span class="text-sm font-semibold">4.89</span>
+                          <i class='bx bxs-star text-yellow-400 text-sm'></i>
+                      </div>
+                  </div>
+                  
+                  <div class="flex items-center gap-1 text-gray-600 text-sm mb-3">
+                      <i class='bx bx-time-five text-green-600'></i>
+                      <span>13 - 23 mins</span>
+                  </div>
+                  
+                  <div class="flex gap-2">
+                      <span class="text-green-600 text-xs font-medium bg-green-50 px-3 py-1 rounded-full">PHARMACY</span>
+                      <span class="text-purple-600 text-xs font-medium bg-purple-50 px-3 py-1 rounded-full">LOVEDEAL</span>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </section>
+
+  <section class="py-12 px-72">
+      <div class="grid grid-cols-3 gap-6">
+
+          <div class="border border-gray-200 rounded-2xl overflow-hidden">
+
+              <div class="relative h-48 bg-gradient-to-r from-pink-500 to-purple-600 p-6">
+
+                  <div class="absolute top-4 left-4">
+                      <i class='bx bxs-sun text-yellow-400 text-4xl'></i>
+                  </div>
+
+                  <div class="text-white">
+                      <p class="text-sm font-medium mb-1">Stay well. Spend less.</p>
+                      <p class="text-sm font-medium mb-2">Enjoy</p>
+                      <h2 class="text-7xl font-bold mb-2">5%</h2>
+                      <p class="text-xs">OFF all products every Tuesday &</p>
+                      <p class="text-xs">Wednesday this November — only</p>
+                      <p class="text-xs">at Medplus.</p>
+                  </div>
+
+                  <div class="absolute bottom-0 right-4">
+                      <img src="/images/pharmacy-products-1.png" alt="products" class="w-32 h-40">
+                  </div>
+              </div>
+
+              <div class="p-4">
+                  <div class="flex items-start justify-between mb-2">
+                      <h3 class="text-lg font-semibold">Medplus Pharmacy - CMD ROAD</h3>
+                      <div class="flex items-center gap-1">
+                          <span class="text-sm font-semibold">4.36</span>
+                          <i class='bx bxs-star text-yellow-400 text-sm'></i>
+                      </div>
+                  </div>
+                  
+                  <div class="flex items-center gap-1 text-gray-600 text-sm mb-3">
+                      <i class='bx bx-time-five text-green-600'></i>
+                      <span>12 - 22 mins</span>
+                  </div>
+                  
+                  <div class="flex gap-2">
+                      <span class="text-green-600 text-xs font-medium bg-green-50 px-3 py-1 rounded-full">PHARMACY</span>
+                      <span class="text-purple-600 text-xs font-medium bg-purple-50 px-3 py-1 rounded-full">LOVEDEAL</span>
+                  </div>
+              </div>
+          </div>
+
+          <div class="border border-gray-200 rounded-2xl overflow-hidden">
+
+              <div class="relative h-48 bg-gradient-to-r from-pink-500 to-purple-600 p-6">
+                  <div class="absolute top-4 left-4">
+                      <i class='bx bxs-sun text-yellow-400 text-4xl'></i>
+                  </div>
+                  
+                  <div class="text-white">
+                      <p class="text-sm font-medium mb-1">Stay well. Spend less.</p>
+                      <p class="text-sm font-medium mb-2">Enjoy</p>
+                      <h2 class="text-7xl font-bold mb-2">5%</h2>
+                      <p class="text-xs">OFF all products every Tuesday &</p>
+                      <p class="text-xs">Wednesday this November — only</p>
+                      <p class="text-xs">at Medplus.</p>
+                  </div>
+                  
+                  <div class="absolute bottom-0 right-4">
+                      <img src="/images/pharmacy-products.png" alt="products" class="w-32 h-40">
+                  </div>
+              </div>
+              
+              <div class="p-4">
+                  <div class="flex items-start justify-between mb-2">
+                      <h3 class="text-lg font-semibold">Medplus Pharmacy - Oba Ogunnusi</h3>
+                      <div class="flex items-center gap-1">
+                          <span class="text-sm font-semibold">4.68</span>
+                          <i class='bx bxs-star text-yellow-400 text-sm'></i>
+                      </div>
+                  </div>
+                  
+                  <div class="flex items-center gap-1 text-gray-600 text-sm mb-3">
+                      <i class='bx bx-time-five text-green-600'></i>
+                      <span>12 - 22 mins</span>
+                  </div>
+                  
+                  <div class="flex gap-2">
+                      <span class="text-green-600 text-xs font-medium bg-green-50 px-3 py-1 rounded-full">PHARMACY</span>
+                      <span class="text-purple-600 text-xs font-medium bg-purple-50 px-3 py-1 rounded-full">LOVEDEAL</span>
+                  </div>
+              </div>
+          </div>
+
+          <div class="border border-gray-200 rounded-2xl overflow-hidden">
+
+              <div class="relative h-48 bg-gradient-to-r from-pink-500 to-purple-600 p-6">
+                  <div class="absolute top-4 left-4">
+                      <i class='bx bxs-sun text-yellow-400 text-4xl'></i>
+                  </div>
+                  
+                  <div class="text-white">
+                      <p class="text-sm font-medium mb-1">Stay well. Spend less.</p>
+                      <p class="text-sm font-medium mb-2">Enjoy</p>
+                      <h2 class="text-7xl font-bold mb-2">5%</h2>
+                      <p class="text-xs">OFF all products every Tuesday &</p>
+                      <p class="text-xs">Wednesday this November — only</p>
+                      <p class="text-xs">at Medplus.</p>
+                  </div>
+                  
+                  <div class="absolute bottom-0 right-4">
+                      <img src="/images/pharmacy-products-2.png" alt="products" class="w-32 h-40">
+                  </div>
+              </div>
+              
+              <div class="p-4">
+                  <div class="flex items-start justify-between mb-2">
+                      <h3 class="text-lg font-semibold">Medplus Pharmacy - Isaac John</h3>
+                      <div class="flex items-center gap-1">
+                          <span class="text-sm font-semibold">4.89</span>
+                          <i class='bx bxs-star text-yellow-400 text-sm'></i>
+                      </div>
+                  </div>
+                  
+                  <div class="flex items-center gap-1 text-gray-600 text-sm mb-3">
+                      <i class='bx bx-time-five text-green-600'></i>
+                      <span>13 - 23 mins</span>
+                  </div>
+                  
+                  <div class="flex gap-2">
+                      <span class="text-green-600 text-xs font-medium bg-green-50 px-3 py-1 rounded-full">PHARMACY</span>
+                      <span class="text-purple-600 text-xs font-medium bg-purple-50 px-3 py-1 rounded-full">LOVEDEAL</span>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </section>
+
+  <section class="py-12 px-72">
+      <div class="grid grid-cols-2 gap-6 max-w-6xl">
+
+          <div class="border border-gray-200 rounded-2xl overflow-hidden">
+
+              <div class="relative h-48 bg-gradient-to-r from-pink-500 to-purple-600 p-6">
+
+                  <div class="absolute top-4 left-4">
+                      <i class='bx bxs-sun text-yellow-400 text-4xl'></i>
+                  </div>
+
+                  <div class="text-white">
+                      <p class="text-sm font-medium mb-1">Stay well. Spend less.</p>
+                      <p class="text-sm font-medium mb-2">Enjoy</p>
+                      <h2 class="text-7xl font-bold mb-2">5%</h2>
+                      <p class="text-xs">OFF all products every Tuesday &</p>
+                      <p class="text-xs">Wednesday this November — only</p>
+                      <p class="text-xs">at Medplus.</p>
+                  </div>
+
+                  <div class="absolute bottom-0 right-4">
+                      <img src="/images/pharmacy-products-3.png" alt="products" class="w-32 h-40">
+                  </div>
+              </div>
+
+              <div class="p-4">
+                  <div class="flex items-start justify-between mb-2">
+                      <h3 class="text-lg font-semibold">Medplus Pharmacy - Oduduwa</h3>
+                      <div class="flex items-center gap-1">
+                          <span class="text-sm font-semibold">4.36</span>
+                          <i class='bx bxs-star text-yellow-400 text-sm'></i>
+                      </div>
+                  </div>
+                  
+                  <div class="flex items-center gap-1 text-gray-600 text-sm mb-3">
+                      <i class='bx bx-time-five text-green-600'></i>
+                      <span>12 - 22 mins</span>
+                  </div>
+                  
+                  <div class="flex gap-2">
+                      <span class="text-green-600 text-xs font-medium bg-green-50 px-3 py-1 rounded-full">PHARMACY</span>
+                      <span class="text-purple-600 text-xs font-medium bg-purple-50 px-3 py-1 rounded-full">LOVEDEAL</span>
+                  </div>
+              </div>
+          </div>
+
+          <div class="border border-gray-200 rounded-2xl overflow-hidden">
+
+              <div class="relative h-48 bg-gradient-to-r from-pink-500 to-purple-600 p-6">
+                  <div class="absolute top-4 left-4">
+                      <i class='bx bxs-sun text-yellow-400 text-4xl'></i>
+                  </div>
+                  
+                  <div class="text-white">
+                      <p class="text-sm font-medium mb-1">Stay well. Spend less.</p>
+                      <p class="text-sm font-medium mb-2">Enjoy</p>
+                      <h2 class="text-7xl font-bold mb-2">5%</h2>
+                      <p class="text-xs">OFF all products every Tuesday &</p>
+                      <p class="text-xs">Wednesday this November — only</p>
+                      <p class="text-xs">at Medplus.</p>
+                  </div>
+                  
+                  <div class="absolute bottom-0 right-4">
+                      <img src="/images/pharmacy-products-4.png" alt="products" class="w-32 h-40">
+                  </div>
+              </div>
+              
+              <div class="p-4">
+                  <div class="flex items-start justify-between mb-2">
+                      <h3 class="text-lg font-semibold">Medplus Pharmacy - Magodo</h3>
+                      <div class="flex items-center gap-1">
+                          <span class="text-sm font-semibold">4.68</span>
+                          <i class='bx bxs-star text-yellow-400 text-sm'></i>
+                      </div>
+                  </div>
+                  
+                  <div class="flex items-center gap-1 text-gray-600 text-sm mb-3">
+                      <i class='bx bx-time-five text-green-600'></i>
+                      <span>12 - 22 mins</span>
+                  </div>
+                  
+                  <div class="flex gap-2">
+                      <span class="text-green-600 text-xs font-medium bg-green-50 px-3 py-1 rounded-full">PHARMACY</span>
+                      <span class="text-purple-600 text-xs font-medium bg-purple-50 px-3 py-1 rounded-full">LOVEDEAL</span>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </section>
+
+  <!-- Footer. -->
+
+  <footer class="bg-gray-50 py-12 px-16 border-t border-gray-200">
+      <div class="max-w-7xl mx-auto">
+
+          <div class="grid grid-cols-4 gap-16 mb-12">
+
+              <!-- Column 1: Logo -->
+              <div>
+                  <div class="flex items-center gap-2">
+                      <i class='bx bxs-copyright text-5xl text-green-900'></i>
+                      <p class="font-bold text-4xl text-green-900">Chowdeck</p>
+                  </div>
+              </div>
+
+              <!-- Column 2: Locations -->
+              <div>
+                  <h4 class="text-gray-900 font-semibold text-sm mb-4">LOCATIONS</h4>
+                  <ul class="space-y-3">
+                      <li><a href="#" class="text-gray-600 text-sm">Community 25</a></li>
+                      <li><a href="#" class="text-gray-600 text-sm">NYSC Camp Iseyin</a></li>
+                      <li><a href="#" class="text-gray-600 text-sm">Enugu Nysc camp</a></li>
+                      <li><a href="#" class="text-gray-600 text-sm">Benin Nysc camp</a></li>
+                      <li><a href="#" class="text-gray-600 text-sm">Port harcourt Nysc camp</a></li>
+                      <li><a href="#" class="text-gray-600 text-sm">Jos Nysc Camp</a></li>
+                      <li><a href="#" class="text-green-600 text-sm font-medium">See more</a></li>
+                  </ul>
+              </div>
+
+              <!-- Column 3: Download -->
+              <div>
+                  <h4 class="text-gray-900 font-semibold text-sm mb-4">DOWNLOAD</h4>
+                  <ul class="space-y-3">
+                      <li><a href="#" class="text-gray-600 text-sm">Google Play Store</a></li>
+                      <li><a href="#" class="text-gray-600 text-sm">iOS App Store</a></li>
+                  </ul>
+              </div>
+
+              <!-- Column 4: Get Help & Legal -->
+              <div>
+                  <!-- Get Help -->
+                  <div class="mb-8">
+                      <h4 class="text-gray-900 font-semibold text-sm mb-4">GET HELP</h4>
+                      <ul class="space-y-3">
+                          <li><a href="#" class="text-gray-600 text-sm">Email</a></li>
+                      </ul>
+                  </div>
+
+                  <!-- Legal -->
+                  <div>
+                      <h4 class="text-gray-900 font-semibold text-sm mb-4">LEGAL</h4>
+                      <ul class="space-y-3">
+                          <li><a href="#" class="text-gray-600 text-sm">Privacy Policy</a></li>
+                          <li><a href="#" class="text-gray-600 text-sm">Terms of use</a></li>
+                      </ul>
+                  </div>
+              </div>
+              
+          </div>
+
+          <!-- Bottom Footer -->
+          <div class="flex items-center justify-between pt-8 border-t border-gray-200">
+              <!-- Copyright -->
+              <p class="text-gray-500 text-sm">© 2022, Chowdeck.</p>
+
+              <!-- Social Icons -->
+              <div class="flex items-center gap-4">
+                  <a href="#" class="text-gray-600">
+                      <i class='bx bxl-facebook text-xl'></i>
+                  </a>
+                  <a href="#" class="text-gray-600">
+                      <i class='bx bxl-instagram text-xl'></i>
+                  </a>
+                  <a href="#" class="text-gray-600">
+                      <i class='bx bxl-twitter text-xl'></i>
+                  </a>
+              </div>
+          </div>
+          
+      </div>
+  </footer>
+  
+</body>
+</html>
